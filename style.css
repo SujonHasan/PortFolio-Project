@@ -1,0 +1,303 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    
+   
+
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr_style
+{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 70px;
+   
+}
+
+/* header stylen start*/
+
+.header
+{
+    background-image: url(image/cover.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_content
+{
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_container h1{
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.8;
+    font-size: 3.5rem;
+
+}
+
+.navbar
+{
+    background-color: black;
+    opacity: 0.6;
+}
+
+.navbar-brand img
+{
+    width: 60px;
+    height: auto;
+}
+.navbar-brand img:hover
+{
+    border: 3px solid silver;
+    border-radius: 15%;
+}
+
+.nav-icon
+{
+    color: white;
+    padding: 2px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.nav-link
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover
+{
+    color: white;
+    background-color: rgb(19, 41, 41);
+    transform: 0.4s;
+}
+
+.banner_container
+{
+    text-align: center;
+}
+
+
+/* header stylen End*/
+
+
+/* features section start */
+
+.feature
+{
+    
+    padding: 5% 10%;
+    background-color: rgb(66, 63, 57);
+}
+
+.feature_col
+{
+    
+    color: black;
+    padding: 15px;
+    border: 2px solid #ff02c0;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+
+.feature_col:hover
+{
+    
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon_style{
+
+    background-color: rgb(136, 60, 211);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 0;
+    color: white;
+    
+}
+
+
+/* features section End */
+
+
+
+/* about section style start */
+
+.about-me
+{
+    padding: 5% 10%;
+    background-color: rgb(28, 49, 51);
+    
+}
+
+.section_title h3
+{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.basic-desc p
+{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+
+.basic-desc a
+{
+    color:white;
+    text-decoration: underline;
+
+}
+
+.achieve-desc p span{
+
+    font-weight: bold; 
+
+}
+.achieve-desc p{
+
+    margin-bottom: 0;
+    color: white;
+
+}
+
+.table-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star_class i
+{
+    width: 20px;
+    color: white;
+}
+
+/* about section style End */
+
+
+
+/* Tutorial section style start */
+
+
+.tutorial
+{
+    padding: 5% 10%;
+    background-color: rgb(66, 63, 57);
+    
+}
+
+.card
+{
+    transition: 0.4s;
+    border: 1px solid rgb(32, 14, 14);
+}
+
+.card:hover
+{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgb(95, 91, 91);
+}
+
+.card-body
+{
+    background-color: slategrey;
+}
+
+/* Tutorial section style End */
+
+
+/* feedback section style start */
+
+
+#feedback
+{
+
+    padding: 5% 10%;
+    background-color: rgb(28, 49, 51);
+}
+
+.car-img
+{
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+/* feedback section style End */
+
+
+/* contact section style start */
+
+#Contact
+{
+    padding: 5% 10%;
+    background-color: rgb(66, 63, 57);
+}
+
+.form-group
+{
+    color: white;
+}
+
+/* contact section style End */
+
+
+/* footer section style start */
+
+
+footer
+{
+    background-color: rgb(28, 49, 51);
+    padding: 1% 10%;
+
+}
+
+footer a
+{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+/* footer section style End */
+
+@media (max-width:768px){
+
+    .nav-link
+    {
+        background-color: rgba(26, 64, 146, 0.103);
+        font-size: 1rem;
+    }
+
+    .banner_container h1{
+        
+        font-size: 2.5rem;
+    
+    }
+    
+}
